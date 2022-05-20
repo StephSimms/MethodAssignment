@@ -15,10 +15,12 @@ namespace MethodAssignment
 
             Class1 obj1 = new Class1();
 
-            Console.WriteLine("Your number quintupled is " + obj1.intquintuple(userInp));
-            Console.WriteLine("Your number sextupled is " + obj1.intsextuple(userInp));
-            Console.WriteLine("Your number septupled is " + obj1.intseptuple(userInp));
+            Console.WriteLine("Your number times 2 is:  " + obj1.intmultiply(userInp));
+            Console.WriteLine("Your number divided by 2 is:  " + obj1.intdivide(userInp));
+            Console.WriteLine("Your number minus 2 is:  " + obj1.intminus(userInp));
             Console.ReadLine();
+
+            
 
         }
     }

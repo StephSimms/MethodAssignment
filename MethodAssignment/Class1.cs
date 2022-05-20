@@ -8,18 +8,18 @@ namespace MethodAssignment
 {
     class Class1
     {
-        public int intquintuple(int x)
+        public int intmultiply(int x)
         {
-            return x * 5;
+            return x * 2;
         }
-        public int intsextuple(int x)
+        public int intdivide(int x)
         {
-            return x * 6;
+            return x / 2;
 
         }
-        public int intseptuple(int x)
+        public int intminus(int x)
         {
-            return x * 7;
+            return x - 2;
         }
     }
 }
